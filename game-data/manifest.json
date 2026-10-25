@@ -1,0 +1,428 @@
+{
+  "schemaVersion": 1,
+  "gameVersion": "2.1.23",
+  "components": [
+    {
+      "name": "base",
+      "title": "Base Mod",
+      "version": "2.1.23",
+      "dependencies": []
+    },
+    {
+      "name": "elevated-rails",
+      "title": "Elevated Rails",
+      "version": "2.1.23",
+      "dependencies": [
+        "base >= 2.1.0"
+      ]
+    },
+    {
+      "name": "recycler",
+      "title": "Recycler",
+      "version": "2.1.23",
+      "dependencies": [
+        "base >= 2.1.0"
+      ]
+    },
+    {
+      "name": "quality",
+      "title": "Quality",
+      "version": "2.1.23",
+      "dependencies": [
+        "base >= 2.1.0",
+        "recycler >= 2.1.0"
+      ]
+    },
+    {
+      "name": "space-age",
+      "title": "Space Age",
+      "version": "2.1.23",
+      "dependencies": [
+        "base >= 2.1.0",
+        "elevated-rails >= 2.1.0",
+        "+ quality >= 2.1.0",
+        "recycler >= 2.1.0"
+      ]
+    }
+  ],
+  "profiles": [
+    {
+      "id": "2.1.23-base-catalog2",
+      "sourceProfile": "base",
+      "label": "Базовая игра",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-base-catalog2-f3cc562b7a84.json",
+      "sha256": "f3cc562b7a847622de967a3541b376b54349c0aaf4337dfba75aa15055ccdac6",
+      "entities": 115,
+      "recipes": 217
+    },
+    {
+      "id": "2.1.23-elevated-rails-catalog2",
+      "sourceProfile": "elevated-rails",
+      "label": "Elevated Rails",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails-catalog2-9c7bfa6d3a3c.json",
+      "sha256": "9c7bfa6d3a3cfc57b5499836f79d2a526e6c1a0f49be095014e4ff4ad07b4c30",
+      "entities": 121,
+      "recipes": 219
+    },
+    {
+      "id": "2.1.23-recycler-catalog2",
+      "sourceProfile": "recycler",
+      "label": "Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-recycler-catalog2-7b7c650c7767.json",
+      "sha256": "7b7c650c77670c0084c47986390872ac1f37fc04fadca2b36c262cba9be2d5f4",
+      "entities": 116,
+      "recipes": 442
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler-catalog2",
+      "sourceProfile": "elevated-rails_recycler",
+      "label": "Elevated Rails + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler-catalog2-a539a581c342.json",
+      "sha256": "a539a581c342b2dbe4e8408f8fe3726fe00e10dd4e9f0b4c146ff516f41bf844",
+      "entities": 122,
+      "recipes": 446
+    },
+    {
+      "id": "2.1.23-recycler_quality-catalog2",
+      "sourceProfile": "recycler_quality",
+      "label": "Quality + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-recycler_quality-catalog2-a396314a6a5a.json",
+      "sha256": "a396314a6a5ac760a89a4db2df6a588ba40468834d6651101216be2072324070",
+      "entities": 116,
+      "recipes": 448
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler_quality-catalog2",
+      "sourceProfile": "elevated-rails_recycler_quality",
+      "label": "Elevated Rails + Quality + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler_quality-catalog2-fd1e089e0e33.json",
+      "sha256": "fd1e089e0e334ba2eb37bb1390157790449bc14a968db83a2a0153e441b6943b",
+      "entities": 122,
+      "recipes": 452
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler_space-age-catalog2",
+      "sourceProfile": "elevated-rails_recycler_space-age",
+      "label": "Elevated Rails + Recycler + Space Age",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        },
+        {
+          "name": "space-age",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler_space-age-catalog2-92e662eb9933.json",
+      "sha256": "92e662eb993386a1eed2cf84bf3edf8b595cf3c9bace9b431863d76162d450e4",
+      "entities": 159,
+      "recipes": 656
+    },
+    {
+      "id": "2.1.23-space-age-catalog2",
+      "sourceProfile": "space-age",
+      "label": "Space Age · полный",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        },
+        {
+          "name": "space-age",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-space-age-catalog2-4f011def4623.json",
+      "sha256": "4f011def462375642f52944760ff5901a9227260e6ff85002e1669d5067478eb",
+      "entities": 159,
+      "recipes": 662
+    }
+  ],
+  "legacyProfiles": [
+    {
+      "id": "2.1.23-base",
+      "label": "Базовая игра",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-base-def2f341e4fc.json",
+      "sha256": "def2f341e4fc7fe7502be78f77c1ab0091036ec4b6de1d2abc571c1c3bf803ae",
+      "entities": 48,
+      "recipes": 217
+    },
+    {
+      "id": "2.1.23-elevated-rails",
+      "label": "Elevated Rails",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails-a545e3a097e9.json",
+      "sha256": "a545e3a097e9a4492304fafff7a89f7162895f1689de47ef9733e8da446d530d",
+      "entities": 48,
+      "recipes": 219
+    },
+    {
+      "id": "2.1.23-recycler",
+      "label": "Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-recycler-bcc5bcb503cd.json",
+      "sha256": "bcc5bcb503cdae9cf42cf68af52f6ab2421801f77e26aa27347f0de126c367ec",
+      "entities": 49,
+      "recipes": 442
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler",
+      "label": "Elevated Rails + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler-b416c26274ff.json",
+      "sha256": "b416c26274ffa4fe4091f723009d6d70b35204302f4422ee02706a20127be51e",
+      "entities": 49,
+      "recipes": 446
+    },
+    {
+      "id": "2.1.23-recycler_quality",
+      "label": "Quality + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-recycler_quality-1e631d2e50b8.json",
+      "sha256": "1e631d2e50b8dc885baa35070238a24386e7cab5330e0e87060a4f36cc17840c",
+      "entities": 49,
+      "recipes": 448
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler_quality",
+      "label": "Elevated Rails + Quality + Recycler",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler_quality-dfb78f571750.json",
+      "sha256": "dfb78f5717501879c911586e7017c167ce2aa0d040cbbc131bcd54c6f24d6bb3",
+      "entities": 49,
+      "recipes": 452
+    },
+    {
+      "id": "2.1.23-elevated-rails_recycler_space-age",
+      "label": "Elevated Rails + Recycler + Space Age",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        },
+        {
+          "name": "space-age",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-elevated-rails_recycler_space-age-6722378f44a7.json",
+      "sha256": "6722378f44a74480367bbb2156f0039643cb975e8a09d1f13cce8e0dcda8c5ea",
+      "entities": 60,
+      "recipes": 656
+    },
+    {
+      "id": "2.1.23-space-age",
+      "label": "Space Age · полный",
+      "gameVersion": "2.1.23",
+      "mods": [
+        {
+          "name": "base",
+          "version": "2.1.23"
+        },
+        {
+          "name": "elevated-rails",
+          "version": "2.1.23"
+        },
+        {
+          "name": "quality",
+          "version": "2.1.23"
+        },
+        {
+          "name": "recycler",
+          "version": "2.1.23"
+        },
+        {
+          "name": "space-age",
+          "version": "2.1.23"
+        }
+      ],
+      "file": "2.1.23-space-age-0a1ad2c31e09.json",
+      "sha256": "0a1ad2c31e096aace778d03927c954c2fcca231bff4e65fe6411856e388f332c",
+      "entities": 60,
+      "recipes": 662
+    }
+  ]
+}
